@@ -33,20 +33,27 @@ public class OrangeHRM_OH extends Methods {
  @FindBy(name="lastName")
  private WebElement lastname_btn;
  
- @FindBy(className="//input[@type='checkbox']")
-private WebElement switch_on; 
+ @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[2]")
+ private WebElement employee_no;
  
+ //@FindBy(className="//span[@class='oxd-switch-input oxd-switch-input--active --label-right']")
+//private WebElement switch_on; 
  
- @FindBy(className="//button[@type='submit']")
+ @FindBy(xpath="//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")
  private WebElement save;
  
+ @FindBy(xpath="//div[@class='oxd-topbar-header-title']")
+ private WebElement leave;
  
+public WebElement getLeave() {
+	return leave;
+}
 public WebElement getLastname_btn() {
 	return lastname_btn;
 }
-public WebElement getSwitch_on() {
-	return switch_on;
-}
+//public WebElement getSwitch_on() {
+	//return switch_on;
+
 public WebElement getMiddlename_btn() {
 	return middlename_btn;
 }
@@ -74,6 +81,9 @@ public WebElement getPassword_btn() {
 public WebElement getLogin_btn() {
 	return login_btn;
 }
+public WebElement getEmployee_no() {
+	return employee_no;
 
 
  }
+}
