@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-15T17:36:23 IST" name="Default suite" finished-at="2023-07-15T17:36:38 IST" duration-ms="14997">
+  <suite started-at="2023-07-15T22:25:33 IST" name="Default suite" finished-at="2023-07-15T22:26:58 IST" duration-ms="85360">
     <groups>
     </groups>
-    <test started-at="2023-07-15T17:36:23 IST" name="Default test" finished-at="2023-07-15T17:36:38 IST" duration-ms="14997">
+    <test started-at="2023-07-15T22:25:33 IST" name="Default test" finished-at="2023-07-15T22:26:58 IST" duration-ms="85360">
       <class name="com.TestNGProject.Runner_page">
-        <test-method signature="page_Launch()[pri:1, instance:com.TestNGProject.Runner_page@17f9d882]" started-at="2023-07-15T17:36:23 IST" name="page_Launch" finished-at="2023-07-15T17:36:30 IST" duration-ms="6785" status="PASS">
+        <test-method signature="page_Launch()[pri:1, instance:com.TestNGProject.Runner_page@17f9d882]" started-at="2023-07-15T22:25:33 IST" name="page_Launch" finished-at="2023-07-15T22:26:43 IST" duration-ms="70084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- page_Launch -->
-        <test-method signature="page_Login()[pri:0, instance:com.TestNGProject.Runner_page@17f9d882]" started-at="2023-07-15T17:36:30 IST" name="page_Login" finished-at="2023-07-15T17:36:38 IST" depends-on-methods="com.TestNGProject.Runner_page.page_Launch" duration-ms="8162" status="PASS">
+        <test-method signature="page_Login()[pri:0, instance:com.TestNGProject.Runner_page@17f9d882]" started-at="2023-07-15T22:26:43 IST" name="page_Login" finished-at="2023-07-15T22:26:58 IST" depends-on-methods="com.TestNGProject.Runner_page.page_Launch" duration-ms="15217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- page_Login -->

@@ -21,7 +21,7 @@ import org.junit.runners.Parameterized.Parameters;
 	@Test(dependsOnMethods="page_Launch")    
 			
 		private void page_Login() throws InterruptedException {   
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 	    	 inputToElement(PageObjectManager1.getPm().getHr().getUsername_btn(),"Admin");
 	    	 inputToElement(PageObjectManager1.getPm().getHr().getPassword_btn(),"admin123");
 	    	 elementToBeClick(PageObjectManager1.getPm().getHr().getLogin_btn());
